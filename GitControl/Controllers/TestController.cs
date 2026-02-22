@@ -13,4 +13,9 @@ public class TestController : ControllerBase
         return Ok("Hello, World!");
     }
 
+    [HttpGet]
+    public IActionResult GetName()
+    {
+        return Ok("Dato");
+    }
 }
